@@ -144,12 +144,12 @@
         <div class="container video-container">
             <h3 class="content-header video-header">відео перша черга</h3>
             <div class="video">
-                <noscript>
-                    <img src="./img/poster-2.webp" alt="video" decoding="async">
-                </noscript>
-                <video src="../video/video-2.mp4" poster="./img/poster-2.webp" width="100%" controls>
+                <video poster="./img/poster-2.webp" width="100%" controls preload="auto">
+                    <source src="../video/video-2.mp4" type="video/mp4">
                 </video>
-                <!-- <div class="video-poster-second"><img class="video-play" src="./img/video-play.svg" alt="video-play"></div> -->
+                <div class="video-play">
+                    <img class="video-play-button" src="./img/video-play.svg" alt="video-play-button">
+                </div>
             </div>
         </div>
     </section>
