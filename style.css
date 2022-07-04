@@ -346,7 +346,7 @@ body {
     height: 100%;
     pointer-events: none;
     transition: all .3s;
-    background-image: url(./img/poster-2.webp);
+    /* background-image: url(./img/poster-2.webp); */
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%);
     background-size: cover;
@@ -496,7 +496,7 @@ body {
     color: #000;
 }
 
-.btn-house:focus .btn-house:after {
+.btn-house:focus:after {
     border-left: 20px solid #ffc50e;
 }
 
@@ -523,7 +523,7 @@ body {
 }
 
 .tabs-footer-battons {
-    margin: -3% 0 0;
+    margin: 0;
 }
 
 .plan-dashed {
