@@ -1336,7 +1336,7 @@ body {
   width: 720px;
   height: 560px;
   background: #000;
-  /* padding-left: 70px; */
+  padding: 30px;
 }
 
 .feedback-modal-header {
@@ -1361,6 +1361,9 @@ button.feedback-modal-close {
   border-radius: 42px;
   transform: translate(-15px, 15px);
   opacity: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .modal-close-first {
@@ -1382,4 +1385,47 @@ button.feedback-modal-close {
 .feedback-form {
   max-width: 450px;
   margin: 0 auto;
+  padding: 30px 30px 0;
+}
+
+.modal-body-span {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.modal-name,
+.modal-phone {
+  margin: 20px 0 30px;
+}
+
+.modal-name input,
+.modal-phone input {
+  color: #fff;
+  height: 44px;
+  background: rgba(255, 255, 255, .1);
+  opacity: .6;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 340px;
+}
+
+
+.modal-submit {
+  padding-top: 50px;
+}
+
+.modal-submit input {
+  background: #518f07;
+  border-radius: 4px;
+  color: #fff;
+  border-color: #518f07;
+  width: 380px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.modal-submit input:hover {
+  background: #77b82a;
 }
