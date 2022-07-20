@@ -1117,16 +1117,17 @@ body {
 
 .partners-logo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
-
 }
 
 .partners-logo-link {
   display: block;
-  width: 190px;
-  padding: 20px;
+  width: 180px;
+  padding: 15px;
   border-right: 1px solid #eee;
+  box-sizing: border-box;
 }
 
 .partners-logo-last {
