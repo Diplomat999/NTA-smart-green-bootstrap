@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./@media.css">
     <title>smart-green-bootstrap</title>
+    <link rel="sg icon" href="./img/sg-favicon.jfif" type="image/jfif">
 </head>
 
 <body>
@@ -72,13 +73,14 @@
                             </label>
 
                             <ul class="menu__box">
-                                <li><a class="menu__item" href="#">Про проект</a>
-                                    <a class="menu__item" href="#">Галерея</a>
-                                    <a class="menu__item" href="#">Унікальне планування</a>
-                                    <a class="menu__item" href="#">Перша черга</a>
-                                    <a class="menu__item" href="#">Постачальники та партнери</a>
-                                    <a class="menu__item" href="#">Партнерська программа</a>
-                                <li><a class="menu__item menu-button" href="#">Зворотній зв’язок</a></li>
+                                <li><a class="menu__item" href="#about">Про проект</a>
+                                    <a class="menu__item" href="#gallery">Галерея</a>
+                                    <a class="menu__item" href="#tabs">Унікальне планування</a>
+                                    <a class="menu__item" href="#video-second">Перша черга</a>
+                                    <a class="menu__item" href="#partners">Постачальники та партнери</a>
+                                    <a class="menu__item" href="#cooperation">Партнерська программа</a>
+                                <li><a class="menu__item menu-button" href="#" data-toggle="modal"
+                                        data-target="#feedback">Зворотній зв’язок</a></li>
                             </ul>
                         </div>
                         <!-- finish menu -->
@@ -95,11 +97,12 @@
                 </div>
                 <!-- start header-button -->
                 <div class="header-button">
-                    <a class="header-button-first">Записатись на перегляд</a>
-                    <a class="header-button-second">
+                    <a class="header-button-first" data-toggle="modal" data-target="#feedback">Записатись на
+                        перегляд</a>
+                    <a href="./documents/smartgreen_tvoya_komfortna_rezidencziya.pdf" class="header-button-second">
                         Скачати презентацію <span class="pdf"></span>
                     </a>
-                    <a href="#" target="_blank" class="link"></a>
+                    <a href="#" target="_blank" class="link" data-toggle="modal" data-target="#feedback"></a>
                 </div>
                 <div class="header-dashed"></div>
                 <!-- start hesder content -->
@@ -124,6 +127,7 @@
     <!-- main-start -->
     <main id="main">
         <section class="about">
+            <a name="about"></a>
             <div class="container about-container">
                 <h3 class="about-header content-header">про наш мікрорайон в Хмельницькому</h3>
                 <div class="about-content">
@@ -190,6 +194,7 @@
             </div>
         </section>
         <section class="gallery">
+            <a name="gallery"></a>
             <div class="container-fluid gallery">
                 <div class="text-center gallery-container-header">
                     <h3 class="content-header gallery-header">наша галерея</h3>
@@ -324,6 +329,7 @@
             </div>
         </section>
         <section class="video-second">
+            <a name="video-second"></a>
             <div class="container video-container">
                 <h3 class="content-header video-header">відео перша черга</h3>
                 <div class="video">
@@ -408,6 +414,7 @@
             </div>
         </section>
         <section class="tabs">
+            <a name="tabs"></a>
             <div class="container tabs-container">
                 <h3 class="content-header tabs-header">варіанти планування</h3>
                 <div class="tabs-content-container d-flex">
@@ -501,13 +508,35 @@
                 </div>
                 <div class="col d-flex flex-column align-items-end tabs-footer-battons">
                     <div class="plan-dashed"></div>
-                    <a href="#" class="plan-button-first" target="_blank">Залишити заявку</a>
-                    <a href="#" class="plan-button-second" target="_blank">Скачати презентацію <span
-                            class="plan-pdf"></span></a>
+                    <a href="#" class="plan-button-first" target="_blank" data-toggle="modal"
+                        data-target="#feedback">Залишити заявку</a>
+                    <a href="./documents/smartgreen_tvoya_komfortna_rezidencziya.pdf" class="plan-button-second"
+                        target="_blank">Скачати презентацію <span class="plan-pdf"></span></a>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <a name="partners"></a>
+            <div class="container partners-container">
+                <h3 class="content-header partners-header">постачальники та партнери</h3>
+                <div class="partners-logo">
+                    <a href="https://www.pravex.com.ua/" target="_blank" class="partners-logo-link"><img
+                            src="./img/pravex.png" alt="pravex"></a>
+                    <a href="https://epicentrk.ua/" target="_blank" class="partners-logo-link"><img
+                            src="./img/epicentr.png" alt="epicentr"></a>
+                    <a href="https://novaposhta.ua/" target="_blank" class="partners-logo-link"><img
+                            src="./img/novaposhta.png" alt="novaposhta"></a>
+                    <a href="https://www.ua-region.com.ua/44245657" target="_blank" class="partners-logo-link"><img
+                            src="./img/consalting.png" alt="consalting-group"></a>
+                    <a href="https://ajax.systems/ua/" target="_blank" class="partners-logo-link"><img
+                            src="./img/ajax.png" alt="ajax"></a>
+                    <a href="https://rozetka.com.ua/" target="_blank" class="partners-logo-last partners-logo-link"><img
+                            src="./img/rozetka.png" alt="rozetka"></a>
                 </div>
             </div>
         </section>
         <section class="cooperation">
+            <a name="cooperation"></a>
             <div class="container cooperation-container">
                 <h3 class="content-header cooperation-header">Ми відкриті для нових партнерів з різними варіантами
                     співпраці</h3>
@@ -522,11 +551,12 @@
                         нашої компанії є принцип відкритості та довіри до співпраці з партнерами. Ми поважаємо наших
                         партнерів, проявляємо увагу до деталей, будуємо міцні довготривалі відносини. У партнерів
                         спільні цілі, тому разом ми рухатимемось уперед швидше і впевненіше.</p>
-                    <a href="#" class="cooperation-button plan-button-first" target="_blank">Ознайомитись з умовами</a>
+                    <a href="#" class="cooperation-button plan-button-first" target="_blank" data-toggle="modal" data-target="#feedback">Ознайомитись з умовами</a>
                 </div>
             </div>
         </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-content row">
@@ -596,11 +626,6 @@
             <p>2021. Всі права захищені</p>
         </div>
     </footer>
-
-
-
-
-
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

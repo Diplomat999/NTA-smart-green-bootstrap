@@ -533,6 +533,7 @@ body {
 .header-button-second:hover {
   background: #FFC50E;
   color: #333333;
+  text-decoration: none;
 }
 
 .header-button-second:hover span {
@@ -992,8 +993,8 @@ body {
   content: '';
   position: absolute;
   top: -2px;
-  right: -52px;
-  border: 34px solid transparent;
+  right: -53px;
+  border: 33px solid transparent;
 }
 
 .btn-house:hover .btn-house:focus {
@@ -1102,6 +1103,46 @@ body {
 .plan-button-second:hover span {
   background-image: url(./img/pdf-hover.svg);
 }
+
+/* section-partners */
+
+.partners {
+  padding: 70px 0;
+}
+
+.partners-header::after {
+  right: -67px;
+  bottom: 0;
+}
+
+.partners-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+.partners-logo-link {
+  display: block;
+  width: 190px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+.partners-logo-last {
+  border: transparent;
+}
+
+.partners-logo-link img {
+  width: 100%;
+  filter: grayscale(99%);
+  transition: filter .7s ease-in-out;
+}
+
+.partners-logo-link img:hover {
+  filter: none;
+}
+
 
 /* section-cooperation */
 
