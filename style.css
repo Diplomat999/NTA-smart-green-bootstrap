@@ -761,10 +761,11 @@ body {
 }
 
 .stiky {
-  background-image: url(./img/stiky.svg);
-  background-size: cover;
   width: 60%;
-  height: 566px;
+}
+
+.stiky img {
+  width: 100%;
   position: sticky;
   top: 100px;
   right: 0;
@@ -779,7 +780,7 @@ body {
   padding: 115px 0 70px;
 }
 
-.gallery-container {
+.gallery-container-image {
   position: relative;
 }
 
@@ -1121,11 +1122,6 @@ body {
   justify-content: space-between;
   margin-top: 50px;
 }
-
-
-
-
-
 
 .partners-logo-link {
   display: block;

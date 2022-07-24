@@ -1,0 +1,258 @@
+@media (max-width: 991.98px) {
+    .header-number {
+        font-size: 20px;
+    }
+
+    .menu__btn {
+        top: 35px;
+        right: 30px;
+    }
+
+    .header-header {
+        padding: 50px 0;
+    }
+
+    .header-header h2,
+    .header-header h2 span {
+        font-size: 35px;
+        line-height: 150%;
+    }
+
+    .header-header p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .header-dashed {
+        margin: 50px 0;
+    }
+
+    .header-content-text p {
+        line-height: 100%;
+        padding: 5px 0 0 50px;
+    }
+
+    .about {
+        padding: 50px 0 0;
+    }
+
+    .content-header {
+        font-size: 35px;
+        line-height: 110%;
+    }
+
+    .content-header::after {
+        width: 52px;
+    }
+
+    .about-header::after {
+        left: 44%;
+        bottom: 2px;
+    }
+
+    .about-content {
+        padding-top: 30px;
+    }
+
+    .description-header {
+        margin-bottom: 15px;
+    }
+
+    .description-teritory {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .about-description ul {
+        margin-bottom: 30px;
+    }
+
+    .house-item {
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .house-item-teritory::before {
+        top: 2px;
+    }
+
+    .house-item-first::before,
+    .house-item-second::before,
+    .house-item-third::before,
+    .house-item-fourth::before {
+        top: -3px;
+    }
+
+    .description-services {
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .stiky img {
+        top: 30px;
+    }
+
+    .gallery-container-header {
+        padding: 50px 0;
+    }
+
+    .gallery-header:after {
+        bottom: 5px;
+        right: -35px;
+    }
+
+    .video-container {
+        padding: 50px 100px;
+    }
+
+    .video-header::after {
+        bottom: 5px;
+        right: -33px;
+    }
+
+    .video {
+        margin-top: 30px;
+    }
+
+    .plan-container {
+        padding: 0 10px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-header::after {
+        right: -32px;
+        bottom: 2px;
+    }
+
+    .plan-content-container {
+        padding: 0;
+    }
+
+    .content-img {
+        margin: 10px 0;
+    }
+
+    .content-img img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .plan-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tabs-container {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabs-header::after {
+        bottom: 2px;
+        right: -34px;
+    }
+
+    .tabs-content-container {
+        padding: 30px 0 0;
+    }
+
+    .btn-house {
+        font-size: 16px;
+        line-height: 100%;
+        width: 200px;
+        height: 50px;
+    }
+
+    .tab-content {
+        margin: 0;
+    }
+
+    .btn-house:after {
+        right: -46px;
+        border: 26px solid transparent;
+    }
+
+    .plan-house,
+    .tab-content>.active {
+        margin: 0;
+    }
+
+    .description-header {
+        font-size: 19px;
+    }
+
+    .description-content {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .partners {
+        padding: 50px 0;
+    }
+
+    .partners-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partners-header::after {
+        right: -32px;
+        bottom: 2px;
+    }
+
+    .cooperation {
+        padding: 50px 0;
+    }
+
+    .cooperation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cooperation-header {
+        margin-bottom: 30px;
+    }
+
+    .cooperation-content {
+        padding: 30px;
+    }
+
+    .cooperation-content p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    .footer-number {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .guests-title {
+        font-size: 19px;
+        line-height: 23px;
+        margin: 30px 0 14px;
+    }
+
+    .guests-address,
+    .sale-office-address {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .social-network {
+        margin: 30px 0;
+    }
+
+    .network-link {
+        width: 35px;
+        height: 35px;
+    }
+}
