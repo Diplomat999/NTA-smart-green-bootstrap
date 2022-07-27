@@ -419,7 +419,7 @@
             <a name="tabs"></a>
             <div class="container tabs-container">
                 <h3 class="content-header tabs-header">варіанти планування</h3>
-                <div class="tabs-content-container d-flex">
+                <div class="tabs-content-container">
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs flex-column tabs-buttons-container" role="tablist">
                         <li role="presentation" class="active first-tab">
@@ -443,6 +443,28 @@
                                 class="btn-house btn-house-end">Квартира 3</a>
                         </li>
                     </ul>
+
+                    <div class="dropdown tabs-dropdown">
+                        <a class="btn dropdown-toggle dropdown-button" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">Варіанти планувань
+                        </a>
+
+                        <div class="dropdown-menu tabs-dropdown-menu">
+                            <a href="#home-first" aria-controls="home" role="tab" data-toggle="tab"
+                                class="btn-house active dropdown-button-container">Котедж 121,56 кв.м.</a>
+                            <a href="#home-second" aria-controls="profile" role="tab" data-toggle="tab"
+                                class="btn-house dropdown-item">Котедж 149,34 кв.м.</a>
+
+                            <a href="#home-third" aria-controls="messages" role="tab" data-toggle="tab"
+                                class="btn-house dropdown-item">Квартира 1</a>
+
+                            <a href="#home-fourth" aria-controls="settings" role="tab" data-toggle="tab"
+                                class="btn-house dropdown-item">Квартира 2</a>
+
+                            <a href="#home-fifth" aria-controls="settings" role="tab" data-toggle="tab"
+                                class="btn-house btn-house-end dropdown-item">Квартира 3</a>
+                        </div>
+                    </div>
 
                     <!-- Tab panes -->
                     <div class="tab-content">
@@ -589,7 +611,7 @@
                                         <span class="modal-body-span">Ваше ім'я</span>
                                         <div class="modal-name"><input type="text"></div>
                                         <span class="modal-body-span">Ваш телефон</span>
-                                        <div class="modal-phone"><input type="text"></div>
+                                        <div class="modal-phone"><input type="tel"></div>
                                         <div class="modal-submit"><input type="submit"
                                                 value="Замовити зворотній дзвінок"></div>
                                     </form>

@@ -794,7 +794,7 @@ body {
 }
 
 .gallery-modal-dialog {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .gallery-modal-content {
@@ -949,10 +949,15 @@ body {
 
 .tabs-content-container {
   padding: 70px 0 0;
+  display: flex;
 }
 
 .tab-content {
   margin-left: 50px;
+}
+
+.tabs-dropdown-menu {
+  display: none;
 }
 
 .plan-house,
